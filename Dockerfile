@@ -20,7 +20,7 @@ RUN apt-get update && apt-get install -y \
     isc-dhcp-client \
     apache2 \
     traceroute \
-    netcat \
+    netcat-traditional \
     openssh-server \
     snmp \
     snmpd \
