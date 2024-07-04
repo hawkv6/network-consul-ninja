@@ -33,3 +33,4 @@ nc <ip-of-server> 80
 # For DNS (53/UDP):
 nc -u <ip-of-server> 53
 ```
+
