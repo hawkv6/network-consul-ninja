@@ -25,7 +25,6 @@ RUN apt-get update && apt-get install -y \
     snmp \
     snmpd \
     wpasupplicant \
-    consul \
     snort \ 
     ufw
 
