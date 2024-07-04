@@ -24,10 +24,9 @@ RUN apt-get update && apt-get install -y \
     openssh-server \
     snmp \
     snmpd \
-    wpasupplicant
-    # wpasupplicant \
-    # consul \
-    # snort \ 
-    # ufw
+    wpasupplicant \
+    consul \
+    snort \ 
+    ufw
 
 CMD [ "/bin/bash" ]
