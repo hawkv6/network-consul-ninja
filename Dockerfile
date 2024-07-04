@@ -25,6 +25,8 @@ RUN apt-get update && apt-get install -y \
     snmp \
     snmpd \
     wpasupplicant \
-    consult
+    consul \
+    snort \ 
+    ufw
 
 CMD [ "/bin/bash" ]
