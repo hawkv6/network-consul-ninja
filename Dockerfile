@@ -1,6 +1,6 @@
-FROM ubuntu:22.04
+FROM ubuntu:24.04
 
-LABEL maintainer="INS OST"
+LABEL maintainer="Severin Dellsperger"
 
 ENV DEBIAN_FRONTEND=noninteractive
 
@@ -24,6 +24,7 @@ RUN apt-get update && apt-get install -y \
     openssh-server \
     snmp \
     snmpd \
-    wpasupplicant
+    wpasupplicant \
+    consult
 
 CMD [ "/bin/bash" ]
